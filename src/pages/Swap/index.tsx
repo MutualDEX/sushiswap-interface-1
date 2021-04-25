@@ -323,7 +323,7 @@ export default function Swap() {
                 tokens={importTokensNotInDefault}
                 onConfirm={handleConfirmTokenWarning}
             />
-            <img src="./images/Bigswap-logo2.png" id="center-logo" width="400" alt="logo"/>                                                   
+            <img src="./images/Bigswap-logo.svg" id="center-logo" width="400" alt="logo"/>                                                   
             <SwapPoolTabs active={'swap'} />
             <div className="bg-dark-900 shadow-swap-blue-glow w-full max-w-xl rounded">
                 <SwapHeader />
