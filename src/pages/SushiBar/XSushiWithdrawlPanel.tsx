@@ -202,7 +202,7 @@ export default function CurrencyInputPanel({
                                         fontSize={14}
                                         style={{ display: 'inline', cursor: 'pointer' }}
                                     >
-                                        xSUSHI Balance: {xSushiBalance}
+                                        xBGSP Balance: {xSushiBalance}
                                     </TYPE.body>
                                 )}
                             </RowBetween>
