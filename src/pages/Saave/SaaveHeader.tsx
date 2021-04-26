@@ -15,7 +15,7 @@ export default function SwapHeader() {
     return (
         <StyledSwapHeader>
             <RowBetween>
-                <TYPE.black fontWeight={500}>SUSHI → xSUSHI → aXSUSHI</TYPE.black>
+                <TYPE.black fontWeight={500}>BGSP → xBGSP → aXBGSP</TYPE.black>
             </RowBetween>
         </StyledSwapHeader>
     )
