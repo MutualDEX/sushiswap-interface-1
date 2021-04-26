@@ -22,7 +22,7 @@ module.exports = {
             'dark-600': '#1C2D49',
             'dark-500': '#223D5E',
 
-            primary: '#BFBFBF',
+            primary: '#0000b8',
             'low-emphesis': '#575757'
         },
         screens: {
@@ -126,7 +126,7 @@ module.exports = {
             },
             backgroundColor: {
                 ...defaultTheme.backgroundColor,
-                input: '#2E3348'
+                input: '#000b8'
             },
             boxShadow: {
                 ...defaultTheme.boxShadow,
