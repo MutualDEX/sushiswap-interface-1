@@ -140,7 +140,7 @@ export default function ClaimModal() {
         <>
             {' '}
             <Helmet>
-                <title>Vesting | Sushi</title>
+                <title>Vesting | Bgsp</title>
             </Helmet>
             <PageWrapper>
                 {/* <Confetti start={Boolean(isOpen && claimConfirmed)} /> */}
@@ -307,7 +307,7 @@ export default function ClaimModal() {
                                                 <AutoRow>
                                                     <AutoRow marginBottom="2px">
                                                         <TYPE.body fontWeight={500}>
-                                                            Deposit BGSP into BentoBox
+                                                            Deposit BGSP into BigVault
                                                         </TYPE.body>
                                                     </AutoRow>
                                                     <AutoRow>
