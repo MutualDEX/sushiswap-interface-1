@@ -202,9 +202,9 @@ export default function ClaimModal() {
                                 <CardSection gap="sm">
                                     <RowBetween>
                                         <TYPE.white fontWeight={500} color={theme.text1}>
-                                            Your Claimable SUSHI this Week
+                                            Your Claimable BGSP this Week
                                         </TYPE.white>
-                                        <QuestionHelper text="Your Vested SUSHI will be released each week for the next 6 months. The amount released each week is determined by your historical farming rewards. You do not need to harvest each week as unclaimed amounts from each week will continue to accrue onto the next." />
+                                        <QuestionHelper text="Your Vested BGSP will be released each week for the next 6 months. The amount released each week is determined by your historical farming rewards. You do not need to harvest each week as unclaimed amounts from each week will continue to accrue onto the next." />
                                     </RowBetween>
                                     {/* <div style={{ display: 'flex', alignItems: 'baseline' }}> */}
                                     <div style={{ alignItems: 'baseline' }}>
@@ -214,7 +214,7 @@ export default function ClaimModal() {
                                         {account ? (
                                             <TYPE.white fontWeight={700} fontSize={14} color={theme.text3}>
                                                 {totalLocked ? (
-                                                    `Historical Total Locked: ${formattedNum(totalLocked)} SUSHI`
+                                                    `Historical Total Locked: ${formattedNum(totalLocked)} BGSP`
                                                 ) : (
                                                     <Dots>Historical Total Locked: Fetching Total</Dots>
                                                 )}
@@ -243,7 +243,7 @@ export default function ClaimModal() {
                                         {pendingTreasurySignature ? (
                                             <Dots>Pending Treasury Transfer</Dots>
                                         ) : (
-                                            <> {claimConfirmed ? 'Claimed' : 'Claim SUSHI'}</>
+                                            <> {claimConfirmed ? 'Claimed' : 'Claim BGSP'}</>
                                         )}
 
                                         {attempting && <Loader stroke="white" style={{ marginLeft: '10px' }} />}
@@ -254,7 +254,7 @@ export default function ClaimModal() {
                                 <CardSection gap="md">
                                     <RowBetween style={{ marginBottom: '5px' }}>
                                         <TYPE.white fontWeight={500} color={theme.text1}>
-                                            Things you can do with your SUSHI
+                                            Things you can do with your BGSP
                                         </TYPE.white>
                                     </RowBetween>
                                     <LightCard
@@ -266,11 +266,11 @@ export default function ClaimModal() {
                                             <RowBetween>
                                                 <AutoRow>
                                                     <AutoRow marginBottom="2px">
-                                                        <TYPE.body fontWeight={500}>Stake SUSHI for xSUSHI</TYPE.body>
+                                                        <TYPE.body fontWeight={500}>Stake BGSP for xBGSP</TYPE.body>
                                                     </AutoRow>
                                                     <AutoRow>
                                                         <TYPE.darkGray fontSize=".75rem">
-                                                            Gain governance rights with xSUSHI and earn 5% APR (0.05% of
+                                                            Gain governance rights with xBGSP and earn 5% APR (0.05% of
                                                             all swaps from all chains)
                                                         </TYPE.darkGray>
                                                     </AutoRow>
@@ -292,7 +292,7 @@ export default function ClaimModal() {
                                                     </AutoRow>
                                                     <AutoRow>
                                                         <TYPE.darkGray fontSize=".75rem">
-                                                            Stake into xSUSHI add collateral as axSUSHI on Aave all in
+                                                            Stake into xBGSP add collateral as axBGSP on Aave all in
                                                             one click
                                                         </TYPE.darkGray>
                                                     </AutoRow>
@@ -307,13 +307,13 @@ export default function ClaimModal() {
                                                 <AutoRow>
                                                     <AutoRow marginBottom="2px">
                                                         <TYPE.body fontWeight={500}>
-                                                            Deposit SUSHI into BentoBox
+                                                            Deposit BGSP into BentoBox
                                                         </TYPE.body>
                                                     </AutoRow>
                                                     <AutoRow>
                                                         <TYPE.darkGray fontSize=".75rem">
                                                             (COMING SOON) Accrue automatic yield through flash loans and
-                                                            SUSHI strategies
+                                                            Bigswap strategies
                                                         </TYPE.darkGray>
                                                     </AutoRow>
                                                 </AutoRow>
