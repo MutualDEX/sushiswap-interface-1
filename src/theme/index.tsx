@@ -52,7 +52,7 @@ export function colors(darkMode: boolean): Colors {
         bg1: darkMode ? '#202231' : '#0000b8',
         bg2: darkMode ? '#202d3f' : '#F7F8FA',
         bg3: darkMode ? '#2a3a50' : '#EDEEF2',
-        bg4: darkMode ? '#3a506f' : '#CED0D9',
+        bg4: darkMode ? '#3a506f' : '#0000b8',
         bg5: darkMode ? '#6C7284' : '#888D9B',
 
         //specialty colors
@@ -61,7 +61,7 @@ export function colors(darkMode: boolean): Colors {
 
         //primary colors
         primary1: darkMode ? '#0094ec' : '#0000b8',
-        primary2: darkMode ? '#0097fb' : '#FF8CC3',
+        primary2: darkMode ? '#0097fb' : '#0000b8',
         primary3: darkMode ? '#00aff5' : '#FF99C9',
         primary4: darkMode ? '#376bad70' : '#F6DDE8',
         primary5: darkMode ? '#153d6f70' : '#ebebeb',
@@ -81,13 +81,13 @@ export function colors(darkMode: boolean): Colors {
         green1: '#27AE60',
         yellow1: '#FFE270',
         yellow2: '#F3841E',
-        blue1: '#0094ec',
+        blue1: '#0000b8',
 
         borderRadius: '10px'
 
         // dont wanna forget these blue yet
-        // blue4: darkMode ? '#153d6f70' : '#C4D9F8',
-        // blue5: darkMode ? '#153d6f70' : '#EBF4FF',
+        // blue4: darkMode ? '#0000b8' : '#C4D9F8',
+        // blue5: darkMode ? '#0000b8' : '#EBF4FF',
     }
 }
 
