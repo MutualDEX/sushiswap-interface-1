@@ -28,7 +28,7 @@ export default function BentoBalances(): JSX.Element {
     return (
         <>
             <Helmet>
-                <title>BentoBox Balances | Sushi</title>
+                <title>BigVault Balances | Bgsp</title>
             </Helmet>
             <Layout
                 left={
@@ -37,7 +37,7 @@ export default function BentoBalances(): JSX.Element {
                         backgroundImage={BentoBoxImage}
                         title={'Deposit tokens into BentoBox for all the yields.'}
                         description={
-                            'BentoBox provides extra yield on deposits with flash lending, strategies, and fixed, low-gas transfers among integrated dapps, like Kashi markets.'
+                            'BigVault provides extra yield on deposits with flash lending, strategies, and fixed, low-gas transfers among integrated dapps, like Kashi markets.'
                         }
                     />
                 }
@@ -48,14 +48,14 @@ export default function BentoBalances(): JSX.Element {
                         <CardHeader className="flex justify-between items-center bg-dark-800">
                             <div className="md:hidden">
                                 <div className="flex float-right items-center">
-                                    <div className="">BentoBox</div>
+                                    <div className="">BigVault</div>
                                 </div>
                             </div>
                             <div className="flex w-full justify-between">
                                 <div className="hidden md:flex items-center">
                                     <BackButton defaultRoute="/bento" />
                                     <div>
-                                        <span className="text-3xl text-high-emphesis mr-2">BentoBox</span>
+                                        <span className="text-3xl text-high-emphesis mr-2">BigVault</span>
                                         <span className="text-lg text-secondary">
                                             {formattedNum(
                                                 balances
@@ -79,7 +79,7 @@ export default function BentoBalances(): JSX.Element {
                         <div className="px-4 grid grid-cols-3 text-sm  text-secondary select-none">
                             <div>Token</div>
                             <div className="text-right">Wallet</div>
-                            <div className="text-right">BentoBox</div>
+                            <div className="text-right">BigVault</div>
                         </div>
                         {items &&
                             items.length > 0 &&
