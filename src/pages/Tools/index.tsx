@@ -70,7 +70,7 @@ export default function Pool() {
     return (
         <>
             <Helmet>
-                <title>Tools | Sushi</title>
+                <title>Tools | Bigswap</title>
             </Helmet>
             <PageWrapper>
                 <SwapPoolTabs active={'pool'} />
@@ -79,7 +79,7 @@ export default function Pool() {
                         <AutoColumn gap="md">
                             <RowBetween>
                                 <TYPE.white fontWeight={600} color={theme.text1}>
-                                    Helpful Sushi Tools
+                                    Helpful Bigswap Tools
                                 </TYPE.white>
                             </RowBetween>
                             <RowBetween>
@@ -130,7 +130,7 @@ export default function Pool() {
                                     <RowFixed>
                                         {/* <DoubleCurrencyLogo currency0={currency0} currency1={currency1} margin={true} size={20} /> */}
                                         <Text fontWeight={500} fontSize={14}>
-                                            One click SUSHI → xSUSHI → aXSUSHI
+                                            One click BGSP → xBGSP → aXBGSP
                                         </Text>
                                     </RowFixed>
                                     <RowFixed>
