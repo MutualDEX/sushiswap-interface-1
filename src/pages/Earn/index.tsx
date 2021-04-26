@@ -62,11 +62,11 @@ export default function Earn() {
                     <CardSection>
                         <AutoColumn gap="md">
                             <RowBetween>
-                                <TYPE.white fontWeight={600}>SushiSwap liquidity mining</TYPE.white>
+                                <TYPE.white fontWeight={600}>BigSwap liquidity mining</TYPE.white>
                             </RowBetween>
                             <RowBetween>
                                 <TYPE.white fontSize={14}>
-                                    Deposit your Liquidity Provider tokens to receive SUSHI, the SushiSwap protocol
+                                    Deposit your Liquidity Provider tokens to receive BGSP, the BigSwap protocol
                                     governance token.
                                 </TYPE.white>
                             </RowBetween>{' '}
