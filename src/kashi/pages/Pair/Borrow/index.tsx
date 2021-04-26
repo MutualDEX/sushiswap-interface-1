@@ -96,7 +96,7 @@ export default function BorrowPair({
                             <div className="text-lg text-secondary">{pair.collateral.symbol} Strategy</div>
                             <div className="text-lg text-high-emphesis">
                                 None
-                                <QuestionHelper text="BentoBox strategies can create yield for your collateral tokens. This token does not yet have a strategy in the BentoBox." />
+                                <QuestionHelper text="BigVault strategies can create yield for your collateral tokens. This token does not yet have a strategy in the BigVault." />
                             </div>
                         </div>
                     </div>
