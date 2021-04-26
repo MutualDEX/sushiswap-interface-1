@@ -31,8 +31,8 @@ export default function Saave() {
     return (
         <>
             <Helmet>
-                <title>Saave | Sushi</title>
-                <meta name="description" content="Migrate SUSHI -> xSUSHI -> axSUSHI" />
+                <title>Saave | Bgsp</title>
+                <meta name="description" content="Migrate BGSP -> xBGSP -> axBGSP" />
             </Helmet>
             <PageWrapper>
                 <VoteCard>
@@ -45,7 +45,7 @@ export default function Saave() {
                             </RowBetween>
                             <RowBetween>
                                 <TYPE.white fontSize={14} color={theme.text2}>
-                                    {`Stake your SUSHI into xSUSHI for ~5% APY. Deposit your xSUSHI into Aave as aXSUSHI to earn collateral interest and borrowing power. All in one click.`}
+                                    {`Stake your BGSP into xBGSP for ~5% APY. Deposit your xBGSP into Aave as aXBGSP to earn collateral interest and borrowing power. All in one click.`}
                                 </TYPE.white>
                             </RowBetween>
                             <ExternalLink
