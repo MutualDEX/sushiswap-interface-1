@@ -82,7 +82,7 @@ export default function LendingPair({
                             <div className="text-lg text-secondary">{pair.asset.symbol} Strategy</div>
                             <div className="text-lg text-high-emphesis">
                                 None
-                                <QuestionHelper text="BentoBox strategies can create yield for your liquidity while it is not lent out. This token does not yet have a strategy in the BentoBox." />
+                                <QuestionHelper text="BigVault strategies can create yield for your liquidity while it is not lent out. This token does not yet have a strategy in the BigVault." />
                             </div>
                         </div>
                     </div>
@@ -91,7 +91,7 @@ export default function LendingPair({
         >
             <Helmet>
                 <title>
-                    Lend {pair?.asset?.symbol}-{pair?.collateral?.symbol} | Sushi
+                    Lend {pair?.asset?.symbol}-{pair?.collateral?.symbol} | Bgsp
                 </title>
             </Helmet>
             <Card
