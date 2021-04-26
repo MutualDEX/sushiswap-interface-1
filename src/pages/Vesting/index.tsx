@@ -129,13 +129,13 @@ export default function ClaimModal() {
 
     let VaultImage
     if (!pendingTreasurySignature && Number(unclaimedAmount?.toFixed(8)) > 0) {
-        VaultImage = 'https://raw.githubusercontent.com/sushiswap/sushi-content/master/images/sushi-vault-reverse.png'
+        VaultImage = ''
     } else if (!pendingTreasurySignature && Number(unclaimedAmount?.toFixed(8)) <= 0) {
-        VaultImage = 'https://raw.githubusercontent.com/sushiswap/sushi-content/master/images/vesting-safe-off.png'
+        VaultImage = ''
     } else if (pendingTreasurySignature) {
-        VaultImage = 'https://raw.githubusercontent.com/sushiswap/sushi-content/master/images/vesting-safe-closed.png'
+        VaultImage = ''
     }
-
+                                            
     return (
         <>
             {' '}
