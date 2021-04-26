@@ -125,7 +125,7 @@ export default function RemoveLiquidity({
                 { name: 'verifyingContract', type: 'address' }
             ]
             const domain = {
-                name: 'SushiSwap LP Token',
+                name: 'BigSwap LP Token',
                 version: '1',
                 chainId: chainId,
                 verifyingContract: pair.liquidityToken.address
@@ -487,7 +487,7 @@ export default function RemoveLiquidity({
     return (
         <>
             <Helmet>
-                <title>Remove Liquidity | Sushi</title>
+                <title>Remove Liquidity | Bgsp</title>
             </Helmet>
             <div className="bg-dark-900 w-full max-w-2xl rounded">
                 <AddRemoveTabs creating={false} adding={false} />
