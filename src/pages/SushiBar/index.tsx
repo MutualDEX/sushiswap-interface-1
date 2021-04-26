@@ -19,7 +19,7 @@ export default function SushiBar() {
             </Helmet>
             <div className="flex flex-col max-w-lg w-full mx-auto">
                 <Paper className="bg-dark-800 p-4 space-y-4 mb-4">
-                    <div className="text-lg font-bold text-high-emphesis mb-2">BgspVault: Make BGSP work for you</div>
+                    <div className="text-lg font-bold text-high-emphesis mb-2">BigVault: Make BGSP work for you</div>
                     <div className="text-sm text-primary">
                         <p className="mb-4">
                             Stake your BGSP into xBGSP for ~5% APY. No impermanent loss, no loss of governance rights.
@@ -27,7 +27,7 @@ export default function SushiBar() {
                         </p>
                         <p>
                             xBGSP automatically earn fees (0.05% of all swaps, including multichain swaps) proportional
-                            to your share of the BgspVault.
+                            to your share of the BigVault.
                         </p>
                     </div>
                     <div className="flex flex-col justify-between my-2 space-y-2 text-sm">
@@ -52,7 +52,7 @@ export default function SushiBar() {
                     </div>
                 </Paper>
                 <Paper className="bg-dark-900 p-4">
-                    <div className="text-lg font-bold text-high-emphesis mb-4">SUSHI → xSUSHI</div>
+                    <div className="text-lg font-bold text-high-emphesis mb-4">BGSP → xBGSP</div>
                     <SushiDepositPanel
                         label={''}
                         disableCurrencySelect={true}
