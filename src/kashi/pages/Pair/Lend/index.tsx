@@ -76,7 +76,7 @@ export default function LendingPair({
                             </div>
                         </div>
                         <div className="flex justify-between pt-3">
-                            <div className="text-xl text-high-emphesis">BentoBox</div>
+                            <div className="text-xl text-high-emphesis">BigVault</div>
                         </div>
                         <div className="flex justify-between">
                             <div className="text-lg text-secondary">{pair.asset.symbol} Strategy</div>
