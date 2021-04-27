@@ -67,7 +67,7 @@ export default function Layout({
                                 }`}
                             >
                                 <BentoBoxLogo className="fill-current h-auto w-6 mr-2" />
-                                <div className="whitespace-nowrap text-base">BentoBox</div>
+                                <div className="whitespace-nowrap text-base">BigVault</div>
                             </NavLink>
                             {netWorth && (
                                 <div
