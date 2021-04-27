@@ -37,7 +37,7 @@ export default function BentoBalances(): JSX.Element {
                         backgroundImage={BentoBoxImage}
                         title={'Deposit tokens into BentoBox for all the yields.'}
                         description={
-                            'BigVault provides extra yield on deposits with flash lending, strategies, and fixed, low-gas transfers among integrated dapps, like Kashi markets.'
+                            'BigVault provides extra yield on deposits with flash lending, strategies, and fixed, low-gas transfers among integrated dapps, like Big Bucks markets.'
                         }
                     />
                 }
