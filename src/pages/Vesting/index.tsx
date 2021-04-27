@@ -129,11 +129,11 @@ export default function ClaimModal() {
 
     let VaultImage
     if (!pendingTreasurySignature && Number(unclaimedAmount?.toFixed(8)) > 0) {
-        VaultImage = ''
+        VaultImage = 'https://github.com/muutualswap/sushiswap-interface/blob/master/public/images/Bigswap-logo.svg'
     } else if (!pendingTreasurySignature && Number(unclaimedAmount?.toFixed(8)) <= 0) {
-        VaultImage = ''
+        VaultImage = 'https://github.com/muutualswap/sushiswap-interface/blob/master/public/images/Bigswap-logo.svg'
     } else if (pendingTreasurySignature) {
-        VaultImage = ''
+        VaultImage = 'https://github.com/muutualswap/sushiswap-interface/blob/master/public/images/Bigswap-logo.svg'
     }
                                             
     return (
