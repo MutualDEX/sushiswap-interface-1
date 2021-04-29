@@ -109,6 +109,25 @@ export const BSC: { [key: string]: Token } = {
     BTCB: new Token(ChainId.BSC, '0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c', 18, 'BTCB', 'Bitcoin')
 }
 
+export const MATIC: { [key: string]: Token } = {
+export const DAI = new Token(ChainId.MATIC, '0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063', 18, 'DAI', 'Dai Stablecoin'),
+export const USDC = new Token(ChainId.MATIC, '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174', 6, 'USDC', 'USDC'),
+export const USDT = new Token(ChainId.MATIC, '0xc2132D05D31c914a87C6611C10748AEb04B58e8F', 6, 'USDT', 'Tether USD'),
+export const COMP = new Token(ChainId.MATIC, '0x8505b9d2254A7Ae468c0E9dd10Ccea3A837aef5c', 18, 'COMP', 'Compound'),
+export const EASY = new Token(ChainId.MATIC, '0xDb3b3b147A030F032633f6C4BEBf9a2fB5a882B5', 18, 'EASY', 'EASY'),
+export const eUSDC = new Token(ChainId.MATIC, '0x4eBdE54ba404bE158262EDe801744b92b9878c61', 18, 'Easy USDC', 'eUSDC'),
+export const eUSDT = new Token(ChainId.MATIC, '0xfc39742Fe9420a7Af23757Fc7E78D1c3AE4A9474', 18, 'Easy USDT', 'eUSDT'),
+export const eDAI = new Token(ChainId.MATIC, '0xa1C09C8F4f5D03fcC27b456475d53d988e98D7C5', 18, 'Easy DAI', 'eDAI'),
+export const UNITOKEN = new Token(ChainId.MATIC, '0xb33EaAd8d922B1083446DC23f610c2567fB5180f', 18, 'Uniswap', 'UNI'),
+export const TT01 = new Token(ChainId.MATIC, '0x1DBb7f76CDC5413eE211ff4100723791B2d98c05', 18, 'TT01', 'Test Token 01'),
+export const TT02 = new Token(ChainId.MATIC, '0xd07B432B565AE10C6Dc0739989Ee3CF36A8dFf29', 18, 'TT01', 'Test Token 02'),
+export const ETHER = new Token(ChainId.MATIC, '0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619', 18, 'ETH', 'Ether'),
+export const WBTC  = new Token(ChainId.MATIC, '0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6', 18, 'Wrapped Bitcoin', 'wBTC'),
+export const IGG  = new Token(ChainId.MATIC, '0xe6FC6C7CB6d2c31b359A49A33eF08aB87F4dE7CE', 18, 'IG Gold', 'IGG'),
+export const OM  = new Token(ChainId.MATIC, '0x9f5755D47fB80100E7ee65Bf7e136FCA85Dd9334', 18, 'OM Token', 'OM')
+
+}
+
 export const FANTOM: { [key: string]: Token } = {
     USDC: new Token(ChainId.FANTOM, '0x04068DA6C83AFCFA0e13ba15A6696662335D5B75', 6, 'USDC', 'USD Coin'),
     WBTC: new Token(ChainId.FANTOM, '0x321162Cd933E2Be498Cd2267a90534A804051b11', 8, 'WBTC', 'Wrapped Bitcoin'),
@@ -220,6 +239,7 @@ export const CUSTOM_BASES: { [chainId in ChainId]?: { [tokenAddress: string]: To
 export const SUGGESTED_BASES: ChainTokenList = {
     ...WRAPPED_NATIVE_ONLY,
     [ChainId.MAINNET]: [...WRAPPED_NATIVE_ONLY[ChainId.MAINNET], DAI, USDC, USDT, WBTC],
+    [ChainId.MATIC]: [...WRAPPED_NATIVE_ONLY[ChainId.MATIC], DAI, USDC, USDT,  COMP, QUICK, ETHER, UNITOKEN, EASY, IGG, WBTC, OM, TT01, TT02],
     [ChainId.FANTOM]: [...WRAPPED_NATIVE_ONLY[ChainId.FANTOM], FANTOM.DAI, FANTOM.USDC, FANTOM.WBTC, FANTOM.WETH],
     [ChainId.BSC]: [...WRAPPED_NATIVE_ONLY[ChainId.BSC], BSC.DAI, BSC.USD, BSC.USDC, BSC.USDT, BSC.BTCB]
 }
@@ -228,6 +248,7 @@ export const SUGGESTED_BASES: ChainTokenList = {
 export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
     ...WRAPPED_NATIVE_ONLY,
     [ChainId.MAINNET]: [...WRAPPED_NATIVE_ONLY[ChainId.MAINNET], DAI, USDC, USDT, WBTC],
+    [ChainId.MATIC]: [...WRAPPED_NATIVE_ONLY[ChainId.MATIC], DAI, USDC, USDT,  COMP, QUICK, ETHER, UNITOKEN, EASY, IGG, WBTC, OM, TT01, TT02],
     [ChainId.FANTOM]: [...WRAPPED_NATIVE_ONLY[ChainId.FANTOM], FANTOM.DAI, FANTOM.USDC, FANTOM.WBTC, FANTOM.WETH],
     [ChainId.BSC]: [...WRAPPED_NATIVE_ONLY[ChainId.BSC], BSC.DAI, BSC.USD, BSC.USDC, BSC.USDT, BSC.BTCB]
 }
